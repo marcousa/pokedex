@@ -13,6 +13,7 @@
 		A980E67E1D9C4AE8002610AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A980E67D1D9C4AE8002610AC /* Assets.xcassets */; };
 		A980E6811D9C4AE8002610AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A980E67F1D9C4AE8002610AC /* LaunchScreen.storyboard */; };
 		A980E6891D9C5294002610AC /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A980E6881D9C5294002610AC /* pokemon.csv */; };
+		A980E68B1D9C538B002610AC /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980E68A1D9C538B002610AC /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A980E6801D9C4AE8002610AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A980E6821D9C4AE8002610AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A980E6881D9C5294002610AC /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		A980E68A1D9C538B002610AC /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				A980E6881D9C5294002610AC /* pokemon.csv */,
 				A980E67F1D9C4AE8002610AC /* LaunchScreen.storyboard */,
 				A980E6821D9C4AE8002610AC /* Info.plist */,
+				A980E68C1D9C5390002610AC /* Model */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		A980E68C1D9C5390002610AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A980E68A1D9C538B002610AC /* Pokemon.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				A980E6791D9C4AE8002610AC /* ViewController.swift in Sources */,
 				A980E6771D9C4AE8002610AC /* AppDelegate.swift in Sources */,
+				A980E68B1D9C538B002610AC /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
