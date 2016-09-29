@@ -147,12 +147,30 @@
                     <view key="view" contentMode="scaleToFill" id="ktC-TJ-qPU" customClass="PokemonDe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trn-Nn-GHz">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="UqF-2l-Q0e"/>
+                                    <constraint firstAttribute="width" constant="99" id="arf-sg-oCf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.31764705879999999" green="0.64313725489999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="trn-Nn-GHz" firstAttribute="centerY" secondItem="ktC-TJ-qPU" secondAttribute="centerY" id="oeE-KT-IbJ"/>
+                            <constraint firstItem="trn-Nn-GHz" firstAttribute="centerX" secondItem="ktC-TJ-qPU" secondAttribute="centerX" id="wKb-51-lgW"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="trn-Nn-GHz" id="sdG-WV-5Dl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uV-Rq-GTZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="139"/>
+            <point key="canvasLocation" x="928.79999999999995" y="138.98050974512745"/>
         </scene>
     </scenes>
     <resources>
